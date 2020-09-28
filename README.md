@@ -6,6 +6,6 @@ It is also easy to notice that some of the code here is hard to read. I have got
 
 File Structure:    
 
-School_Work -> undergrad -> class folders -> class work
+School_Work -> undergrad/grad -> class folders -> class work
 
-The undergrad folder layer exists in case I decide to go to grad school. The class folders are the original github repositories, organized by class code. Everything else was how the original repositories were structured, including the readme. They are a little barebones, as I have gotten better at trying to add as much information into the readme's as possible over time, but they should get everything across.
+The first layer is just undergrad right now, but I kept it open like this in case I decide to go to grad school. The class folders are the original github repositories, organized by class code. Everything else was how the original repositories were structured, including the readme. They are a little barebones, as I have gotten better at trying to add as much information into the readme's as possible over time, but they should get everything across.
