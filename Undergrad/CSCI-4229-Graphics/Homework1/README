@@ -1,0 +1,30 @@
+Time taken: 5 hr 32 Minutes
+
+General Info:
+Arrow keys: move scene
+0: reset scene position
+q: reset the parameters.
+
+Regular Scenes:
+1: set to mode 1 (default) (only alter S). 
+2: set to mode 2 (only alter B).
+3: set to mode 3 (only alter R).
+4: Alter all 3 (s,b,r) at once.
+=: increases a parameter (s in mode 1, b in mode 2, r in mode 3, all in the rest)
+   (= is the same button as plus, but you have to press shift to register
+    + and not so for -, so for consistency sake, = is used in the code).
+-: decreases a parameter (s in mode 1, b in mode 2, r in mode 3, all in the rest)
+
+Art Scenes:
+I altered the rotation settings within the Lorenz for loop while playing around
+with this and accidentally made art. After which, I made some more. 5-9 shall 
+be such art (warning: some are painful to the eyes. Also, I am bad at naming).
+I also removed the axies so they can be seen well.
+(if you alter any of the parameters in one, remember to press q to reset and
+see the initial picture. The values do carry over.)
+5: "Swirls and Twirls"
+6: "The Eternal Star"
+7: "Fill in the Bubble"
+8: "Firework Show" (press = a couple times to see why I call it that)
+9: "The Universal Doughnut"
+

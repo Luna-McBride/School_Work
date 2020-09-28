@@ -1,0 +1,86 @@
+Time Taken: 41 Hours 35 Minutes
+
+Sources Used:
+For Homework 2 (The basis of this homework):
+Homework 1
+Example 8
+Example 9
+Example 10
+https://www.rapidtables.com/web/color/brown-color.html (to try to get the tree color)
+https://www.rapidtables.com/web/color/green-color.html (to try to get the leaf color)
+
+For Homework 3:
+Homework 2
+Example 13
+Example 14
+Example 15
+Example 16
+Example 19
+Example 21
+Textures pulled off google
+
+For This Project:
+Built off of Homework 3.
+Basis for the gate: https://www.dreamstime.com/red-traditional-japanese-gate-torii-blue-sea-mountains-red-traditional-japanese-gate-torii-blue-sea-mountains-image113644559
+Basis for the pagoda: https://upload.wikimedia.org/wikipedia/commons/d/d3/Yakushiji_Toto.jpg
+
+About:
+    This project includes 3 main portions that connect directly with ancient
+Japanese architecture and culture, including the gates, pagodas, and dango.
+The typical red gate (torii (鳥居)), that is one of Japan's most 
+recognizable structures, was built in this program using basic shapes with 
+complex rotations and colorations to achieve. The Pagoda (touba(塔婆)) also 
+was built here by me, using shapes like cubes, cones, and trapezoids. This
+also included textures, including some taken directly from an image of the
+basis I used (Yakushiji). The third main portion are spheres with eyes.
+I thought the spheres looked a lot like traditional Hanami Dango (花見団子), 
+being a popular treat of three balls on a stick made from rice flour and other
+ingredients served during events like Hanami, being cherry blossom viewing
+festivals (they are delicious). I added eyes to them to make them inhabitants
+and made them blink (In different cycles to one another using three frames
+of eye animation and the idle function).
+    This application includes two modes: Perspective and First Person.
+First person includes a scene of a path that leads to one of the pagodas.
+I was able to include a fog effect as well, building a forboding atmosphere.
+There is also a light source staying still at the center, attempting to emulate
+a small sun.
+    There is a long chain of gates there, following that which is popular for
+shrines across Japan (including one in Ueno Park in Tokyo that I went through).
+There is then small rock gardens on either side before the pagoda (little areas
+of rocks raked by an individual. It is supposed to be very calming, hence why they
+are also called zen gardens). All along the path are dango people either admiring
+you from afar or guarding the pagoda.
+    The Perspective mode has 5 items that can be scrolled through with the p
+and o keys. This includes a single dango, two dango sitting together (showing
+off that they blink at different times), a gate, a pagoda, and a zoomed out view
+of the first person scene. You can get to that one easily from the start by pressing
+'o' once.
+
+Controls:
+
+Universal:
+esc: Exit
+0: Reset View 
+2: Perspective View
+3: First Person View
+
+
+Perspective:
+9: Toggle Axis
+p: Scroll forward through items
+o: Scroll back through items
+=: Add to dim
+-: Subtract from dim
+Arrow Keys: Look Around Scene
+x/X: Increase/Decrease the X of the light
+y/Y: Increase/Decrease the Y of the light
+z/Z: Increase/Decrease the Z of the light
+
+First Person Only:
+q:Return to the target
+w: Move Forward
+s: Move Backward
+Right Arrow: Turn Right
+Left Arrow: Turn Left
+Up Arrow: Look Up (Max 40 Degrees to prevent getting disoriented by the sky)
+Down Arrow: Look Down (Max -5 Degrees to prevent floor clipping)

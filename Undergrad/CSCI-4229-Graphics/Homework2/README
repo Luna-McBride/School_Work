@@ -1,0 +1,54 @@
+Time Taken: 13 Hours 45 Minutes
+
+Sources Used:
+Homework 1
+Example 8
+Example 9
+Example 10
+https://www.rapidtables.com/web/color/brown-color.html (to try to get the tree color)
+https://www.rapidtables.com/web/color/green-color.html (to try to get the leaf color)
+
+About:
+    This project was used with a heavy emphasis on the first person
+view. There is a box that follows the player that is essentially a skybox,
+using the sides to kind of emulate a fog effect as the player gets closer
+to the objects. Note that I am also treating the Orthogonal and Perspective
+views as kind of a developer's platform for tree placement and such while
+the first person is the "actual game" (I am also thinking of this as if it
+is a game of sorts). The orthogonal view also does not really show the 
+skybox's sky while the perspective does, giving an interesting look into
+the actual geometry.
+    Items: 
+        Sphere: Bush 
+        Cone: Pine Trees
+        Complex Combination of Cyllendar (if thats how you spell it) and
+            half circles: Those fat palm trees
+    They would look better with textures and lighting, but this makes a good
+forest and testing area for polygon count, first person camera, and the skybox.
+
+
+Controls:
+
+Universal:
+esc: Exit
+9: Toggle Axis
+0: Reset View 
+1: Orthogonal View
+2: Perspective View
+3: First Person View
+
+Any Mode But First Person:
+P: Add to field of vision (fov)
+O: Subtract from fov
+=: Add to dim
+-: Subtract from dim
+Arrow Keys: Look Around Scene
+
+First Person Only:
+Q:Return to the target
+W: Move Forward
+S: Move Backward
+Right Arrow: Turn Right
+Left Arrow: Turn Left
+Up Arrow: Look Up (Max 40 Degrees to prevent getting disoriented by the sky)
+Down Arrow: Look Down (Max -5 Degrees to prevent floor clipping)
