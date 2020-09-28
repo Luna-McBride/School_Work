@@ -1,0 +1,183 @@
+\documentclass[12pt]{article}
+\setlength{\oddsidemargin}{0in}
+\setlength{\evensidemargin}{0in}
+\setlength{\textwidth}{6.5in}
+\setlength{\parindent}{0in}
+\setlength{\parskip}{\baselineskip}
+\usepackage{amsmath,amsfonts,amssymb}
+\usepackage{graphicx}
+\usepackage{enumitem}
+\usepackage[]{algorithmicx}
+\usepackage{amsthm}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\setlength{\headsep}{36pt}
+\usepackage{tkz-berge}
+\usetikzlibrary{positioning, automata}
+
+\usepackage{hyperref}
+
+\theoremstyle{remark}
+\newtheorem*{solution}{Solution}
+
+\newcommand{\makenonemptybox}[2]{%
+%\par\nobreak\vspace{\ht\strutbox}\noindent
+\item[]
+\fbox{% added -2\fboxrule to specified width to avoid overfull hboxes
+% and removed the -2\fboxsep from height specification (image not updated)
+% because in MWE 2cm is should be height of contents excluding sep and frame
+\parbox[c][#1][t]{\dimexpr\linewidth-2\fboxsep-2\fboxrule}{
+  \hrule width \hsize height 0pt
+  #2
+ }%
+}%
+\par\vspace{\ht\strutbox}
+}
+\makeatother
+
+\begin{document}
+
+\lhead{{\bf CSCI 3104, Algorithms \\ Problem Set 10b (34 points)} }
+\rhead{Name: Luna McBride \\ ID: 107607144 \\ {\bf Profs.\ Hoenigman \& Agrawal\\ Fall 2019, CU-Boulder}}
+\renewcommand{\headrulewidth}{0.5pt}
+
+\phantom{Test}
+
+\begin{small}
+\textit{Advice 1}:\ For every problem in this class, you must justify your answer:\ show how you arrived at it and why it is correct. If there are assumptions you need to make along the way, state those clearly.
+\vspace{-3mm} 
+
+\textit{Advice 2}:\ Verbal reasoning is typically insufficient for full credit. Instead, write a logical argument, in the style of a mathematical proof.\\
+\vspace{-3mm} 
+
+\textbf{Instructions for submitting your solution}:
+\vspace{-5mm} 
+
+\begin{itemize}
+	\item The solutions \textbf{should be typed} and we cannot accept hand-written solutions. \href{http://ece.uprm.edu/~caceros/latex/introduction.pdf}{Here's a short intro to Latex.}
+	\item You should submit your work through \href{https://www.gradescope.com/courses/59294}{\textbf{Gradescope}} only.
+	\item If you don't have an account on it, sign up for one using your CU email. You should have gotten an email to sign up. If your name based CU email doesn't work, try the identikey@colorado.edu version. 
+	\item Gradescope will only accept \textbf{.pdf} files (except for code files that should be submitted separately on Gradescope if a problem set has them) and \textbf{try to fit your work in the box provided}. 
+	\item You cannot submit a pdf which has less pages than what we provided you as Gradescope won't allow it. 
+\end{itemize}
+\vspace{-4mm} 
+\end{small}
+
+\hrulefill
+\pagebreak
+\\
+\textbf{Important:} This assignment has 1 (Q1) coding question. 
+\begin{itemize}
+    \item You need to submit 1 python file.
+    \item The .py file should run for you to get points and name the file as following - \\
+If Q1 asks for a python code, please submit it with the following naming convention - \texttt{Lastname-Firstname-PS10b-Q1.py}.
+\item You need to submit the code via Canvas but the table/plot/result should be on the main .pdf.
+\end{itemize}
+\pagebreak
+
+\begin{enumerate}
+    
+    	\item (34 pts total) Recall that the \textit{string alignment problem} takes as input two strings $x$ and $y$, composed of symbols $x_{i},y_{j}\in \Sigma$, for a fixed symbol set $\Sigma$, and returns a minimal-cost set of \textit{edit} operations for transforming the string $x$ into string $y$.
+	
+	Let $x$ contain $n_{x}$ symbols, let $y$ contain $n_{y}$ symbols, and let the set of edit operations be those defined in the lecture notes (substitution, insertion, and deletion).
+	
+	Let the cost of \textit{insert} be $c_{insert}$ and \textit{delete} be $c_{delete}$, and the cost of \textit{sub} be $c_{sub}$, except when $x_{i}=y_{j}$, which is a ``no-op'' and has cost 0.
+	
+	In this problem, you will implement and apply three functions.
+	
+	(i) {\tt alignStrings(x,y, $c_{insert}$, $c_{delete}$, $c_{sub}$)} takes as input two ASCII strings $x$ and $y$, cost of the operations, and runs a dynamic programming algorithm to return the cost matrix $S$, which contains the optimal costs for all the subproblems for aligning these two strings. 
+	
+	
+	(ii) {\tt extractAlignment(S,x,y, $c_{insert}$, $c_{delete}$, $c_{sub}$)} takes as input an optimal cost matrix $S$, strings $x,y$, cost of the operations, and returns a vector $a$ that represents an optimal sequence of edit operations to convert $x$ into $y$. This optimal sequence is recovered by finding a path on the implicit DAG of decisions made by {\tt alignStrings} to obtain the value $S[n_{x},n_{y}]$, starting from $S[0,0]$. 
+	
+	When storing the sequence of edit operations in $a$, use a special symbol to denote no-ops.
+	
+
+
+	(iii) {\tt commonSubstrings(x,L,a)} which takes as input the ASCII string $x$, an integer $1\leq L \leq n_{x}$, and an optimal sequence $a$ of edits to $x$, which would transform $x$ into $y$. This function returns each of the substrings of length at least $L$ in $x$ that aligns exactly, via a run of no-ops, to a substring in $y$.
+		\begin{enumerate}
+
+	\item (21 pts) From scratch, implement the functions {\tt alignStrings}, {\tt extractAlignment}, and {\tt commonSubstrings}. You may not use any library functions that make their implementation trivial. Within your implementation of {\tt extractAlignment}, ties must be broken uniformly at random.\\
+	If you plan to create a version that saves the parent information in {\tt alignStrings} itself, then you should break the ties randomly in {\tt alignStrings} instead. 
+	
+	\textbf{Submit: }
+	\begin{itemize}
+	    \item A brief paragraph for each function that explains how you implemented it (describe how it works and how it uses its data structures).
+	    \item Your code implementation, with code (the code should be submitted on Canvas)
+	    \item The cost matrix $S$ that your code produces on the strings  x={\tt EXPONENTIAL} and y={\tt POLYNOMIAL} with $c_{insert} = 2$, $c_{delete} = 1$, $c_{sub} = 2$
+	\end{itemize}
+	\label{q:align:code}
+	
+	\begin{solution}
+	$\newline$ alignStrings: this one creates an array, sized by the length of each string plus 1 (to account for empty and give base cases). This is filled by two for loops, accounting for multiple main cases. Case 1: i and j are 0, so we are at the origin and thus have no cost yet. Case 2: we are on an edge (i or j are 0), so we fill it bounded by the cost of insert horizontally and delete vertically, as those are the operations done on each axis. Case 3: the letter at y and j are the same, so we do not need to add cost to them on either side (from inserting or deleting), so we just take the previous diagonal's value (would be sub, but is no-op because the values are the same). Case 5: They are not the same, so we pick the least weighted outcome (with the addition of the cost to do the operation) to pick the path of least resistance. $\newline \newline$ extractAlignment: this rebuilds the actions taken bottom up, then reverses the string (as recommended on Piazza). It uses a while loop to pick the path of least cost back to the start, making sure to put values that are the same as a 'no-op' instead of what it would be with costs. $\newline \newline$ commonSubstrings: this uses a for loop to count the number of no-ops in a row, holding the best one in a different array with its own count. That way, we can keep checking for a better one without deleting our current best. $\newline \newline$
+ [[ 0.  2.  4.  6.  8. 10. 12. 14. 16. 18. 20.] $\newline$
+ [ 1.  2.  4.  6.  8. 10. 12. 14. 16. 18. 20.]$\newline$
+ [ 2.  3.  4.  6.  8. 10. 12. 14. 16. 18. 20.]$\newline$
+ [ 3.  2.  4.  6.  8. 10. 12. 14. 16. 18. 20.]$\newline$
+ [ 4.  3.  2.  4.  6.  8. 10. 12. 14. 16. 18.]$\newline$
+ [ 5.  4.  3.  4.  6.  6.  8. 10. 12. 14. 16.]$\newline$
+ [ 6.  5.  4.  5.  6.  7.  8. 10. 12. 14. 16.]$\newline$
+ [ 7.  6.  5.  6.  7.  6.  8. 10. 12. 14. 16.]$\newline$
+ [ 8.  7.  6.  7.  8.  7.  8. 10. 12. 14. 16.]$\newline$
+ [ 9.  8.  7.  8.  9.  8.  9. 10. 10. 12. 14.]$\newline$
+ [10.  9.  8.  9. 10.  9. 10. 11. 11. 10. 12.]$\newline$
+ [11. 10.  9.  8. 10. 10. 11. 12. 12. 11. 10.]]$\newline$
+['delete', 'delete', 'no-op', 'no-op', 'sub', 'sub', 'no-op', 'insert', 'sub', 'no-op', 'no-op', 'no-op']$\newline$
+(['i', 'a', 'l'], 3)  $\pagebreak$
+	
+	\end{solution}
+	
+	
+	\item (7 pts) Using asymptotic analysis, determine the running time of the call \\ ${}^{}$\hspace{0mm} {\tt commonSubstrings(x, L, extractAlignment(  alignStrings(x,y,$c_{insert}$,$c_{delete}$,$c_{sub}$), x,y,$c_{insert}$,$c_{delete}$,$c_{sub}$  )  )} \\
+	Justify your answer.
+
+	\begin{solution}
+	$\newline$ This uses the function calls as the inputs to other functions, having one finish before going to the other. As such, none of the actual functions are within another's loop and thus can be considered different parts rather than all within one big O (none are within another's loop). None are recurrances either, so we do not need to dabble with recurrance relations or the like. This leaves all to the worst cases of their loops. $\newline \newline$ commonSubstrings uses a for loop of the length of a, which is also the length of x by the concept of such programs. As we do not need to look at additions other than the variable, this has O(x) $\newline$ extractAlignment uses a while loop instead of a for loop, which makes the worst case not as simple as "range(0,len(x)), so the worst is len(x)". However, by the code we can tell that one item (item representing the terms 'no-op','sub','insert','delete') is added to a each time we go through the loop. As such, we necesarily made as many loops as len(a) by proxy of the point being to build a, and as discussed before, that means it is also the same as len(x) (and thus the same as commonSubstrings). $\newline$ alignStrings is different in that is uses two loops instead of 1. The loops use len(x) and len(y) as ranges, meaning that the overall usage comes to len(x)*len(y) (if they were the same, this would be similar to $n^2$, however, we cannot necessarily say they are both the same) $\newline \newline$ O(xy)+O(x)+O(x) $\newline$ xy$>$x $\newline$ O(xy) $\pagebreak$
+	
+	\end{solution}
+
+
+
+	\item (6 pts) \textbf{Plagiarism detector} - String alignment algorithms can be used to detect changes between different versions of the same document (as in version control systems) or to detect verbatim copying between different documents (as in plagiarism detection systems).
+	
+	The two {song lyrics} files for PS10b (see class Canvas) contain lyrics of two different songs in text format. Use your functions from~\eqref{q:align:code} with $c_{insert} = 1$, $c_{delete} = 1$, $c_{sub} = 1$ to align the text of these two documents. Utilize your \textbf{commonSubstrings} function for plagiarism detection. Present the results of your analysis, including a reporting of all the substrings in $x$ of length $L=10$ or more that could have been taken from $y$ in two columns with the first being the length of the substring and the second being the actual common substring obtained via continuous 'no-op' run.  \\Briefly comment on whether these songs could be reasonably considered original works, under CU's academic integrity policy.
+	
+	
+	\begin{solution}
+	$\newline$ 
+length ... $\newline$
+------ ... $\newline$
+    18 ... $\newline$
+    12 ... $\newline$
+    28 ... $\newline$
+    26 ... $\newline$
+    42 ... $\newline$
+    32 ... $\newline$
+    20 ... $\newline$
+    22 ... $\newline$
+    36 ... $\newline$
+    44 ... $\newline$
+    43 ... $\newline$
+                                                                                                                                                             substring                                    $\newline$                                                                                                                         
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- $\newline$
+                                                                                                                                                                                                                                                                                                                 yI hear the train $\newline$
+                                                                                                                                                                                                                                                                                                     yI hear the train ' it's rolli $\newline$
+                                                                                                                                                                                                                                                                         yI hear the train ' it's rolliround the bend  And I ain't $\newline$
+                                                                                                                                                                                                                                               yI hear the train ' it's rolliround the bend  And I ain't  since I don't know when  $\newline$
+                                                                                                                                                                                                     yI hear the train ' it's rolliround the bend  And I ain't  since I don't know when  en I was just a baby my mama told me son  $\newline$
+                                                                                                                                                                     yI hear the train ' it's rolliround the bend  And I ain't  since I don't know when  en I was just a baby my mama told me son   my head and I cry.    I bet the$\newline$
+                                                                                                                                                 yI hear the train ' it's rolliround the bend  And I ain't  since I don't know when  en I was just a baby my mama told me son   my head and I cry.    I bet thee's rich folks eatin$\newline$
+                                                                                                                           yI hear the train ' it's rolliround the bend  And I ain't  since I don't know when  en I was just a baby my mama told me son   my head and I cry.    I bet thee's rich folks eatin  They're probably dri$\newline$
+                                                                                       yI hear the train ' it's rolliround the bend  And I ain't  since I don't know when  en I was just a baby my mama told me son   my head and I cry.    I bet thee's rich folks eatin  They're probably dri' coffee and smokin' big cigars  But$\newline$
+                                           yI hear the train ' it's rolliround the bend  And I ain't  since I don't know when  en I was just a baby my mama told me son   my head and I cry.    I bet thee's rich folks eatin  They're probably dri' coffee and smokin' big cigars  Butle farther down the line  Far from Folsom Pr$\newline$
+yI hear the train ' it's rolliround the bend  And I ain't  since I don't know when  en I was just a baby my mama told me son   my head and I cry.    I bet thee's rich folks eatin  They're probably dri' coffee and smokin' big cigars  Butle farther down the line  Far from Folsom Pr's where I want to stay  And I'd let that l$\newline \newline$ In terms of actual CU policy, I could not find a specific percentage to consider plagarism, however, due to the strong usage of key phrases and long stretches of common ground, I would personally say this is more likely plagarized than not.
+	
+	\end{solution}
+	
+	\end{enumerate}
+\end{enumerate}
+
+
+\end{document}
+
+
