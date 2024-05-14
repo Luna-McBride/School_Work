@@ -1,0 +1,45 @@
+Lmod has detected the following error: These module(s) or extension(s) exist
+but cannot be loaded as requested: "impi"
+   Try: "module spider impi" to see how to load the module(s).
+
+
+
+==
+||
+|| Begin Execution of fp in slurm batch script.
+||
+==
+fp: malloc.c:2396: sysmalloc: Assertion `(old_top == initial_top (av) && old_size == 0) || ((unsigned long) (old_size) >= MINSIZE && prev_inuse (old_top) && ((unsigned long) old_end & (pagesize - 1)) == 0)' failed.
+[c3cpu-a5-u34-3:1362180] *** Process received signal ***
+[c3cpu-a5-u34-3:1362180] Signal: Aborted (6)
+[c3cpu-a5-u34-3:1362180] Signal code:  (-6)
+[c3cpu-a5-u34-3:1362180] [ 0] /usr/lib64/libpthread.so.0(+0x12ce0)[0x14ea34afcce0]
+[c3cpu-a5-u34-3:1362180] [ 1] /usr/lib64/libc.so.6(gsignal+0x10f)[0x14ea34773a9f]
+[c3cpu-a5-u34-3:1362180] [ 2] /usr/lib64/libc.so.6(abort+0x127)[0x14ea34746e05]
+[c3cpu-a5-u34-3:1362180] [ 3] /usr/lib64/libc.so.6(+0x9817a)[0x14ea347bd17a]
+[c3cpu-a5-u34-3:1362180] [ 4] /usr/lib64/libc.so.6(+0x9a8e8)[0x14ea347bf8e8]
+[c3cpu-a5-u34-3:1362180] [ 5] /usr/lib64/libc.so.6(+0x9b659)[0x14ea347c0659]
+[c3cpu-a5-u34-3:1362180] [ 6] /usr/lib64/libc.so.6(+0x9bf5f)[0x14ea347c0f5f]
+[c3cpu-a5-u34-3:1362180] [ 7] /usr/lib64/libc.so.6(realloc+0x33b)[0x14ea347c222b]
+[c3cpu-a5-u34-3:1362180] [ 8] /curc/sw/install/openmpi/4.1.1/gcc/11.2.0_slurmpmi/lib/libmpi.so.40(NBC_Sched_recv+0xfb)[0x14ea357c279b]
+[c3cpu-a5-u34-3:1362180] [ 9] /curc/sw/install/openmpi/4.1.1/gcc/11.2.0_slurmpmi/lib/libmpi.so.40(+0x109053)[0x14ea357c7053]
+[c3cpu-a5-u34-3:1362180] [10] /curc/sw/install/openmpi/4.1.1/gcc/11.2.0_slurmpmi/lib/libmpi.so.40(ompi_coll_libnbc_iallgather+0x1a)[0x14ea357c735a]
+[c3cpu-a5-u34-3:1362180] [11] /curc/sw/install/openmpi/4.1.1/gcc/11.2.0_slurmpmi/lib/libmpi.so.40(PMPI_Iallgather+0x105)[0x14ea35753585]
+[c3cpu-a5-u34-3:1362180] [12] /home/trmc7708/Lab3/HPSC_Lab3/Lab3/fp_mpi/src/fp[0x404713]
+[c3cpu-a5-u34-3:1362180] [13] /home/trmc7708/Lab3/HPSC_Lab3/Lab3/fp_mpi/src/fp[0x405319]
+[c3cpu-a5-u34-3:1362180] [14] /home/trmc7708/Lab3/HPSC_Lab3/Lab3/fp_mpi/src/fp[0x402c78]
+[c3cpu-a5-u34-3:1362180] [15] /usr/lib64/libc.so.6(__libc_start_main+0xf3)[0x14ea3475fcf3]
+[c3cpu-a5-u34-3:1362180] [16] /home/trmc7708/Lab3/HPSC_Lab3/Lab3/fp_mpi/src/fp[0x4023be]
+[c3cpu-a5-u34-3:1362180] *** End of error message ***
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that process rank 1 with PID 1362180 on node c3cpu-a5-u34-3 exited on signal 6 (Aborted).
+--------------------------------------------------------------------------
+==
+||
+|| Execution of fp in slurm batch script complete.
+||
+==

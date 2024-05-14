@@ -1,0 +1,40 @@
+Lmod has detected the following error: These module(s) or extension(s) exist
+but cannot be loaded as requested: "impi"
+   Try: "module spider impi" to see how to load the module(s).
+
+
+
+==
+||
+|| Begin Execution of fd in slurm batch script.
+||
+==
+--------------------------------------------------------------------------
+WARNING: There was an error initializing an OpenFabrics device.
+
+  Local host:   c3cpu-a5-u34-3
+  Local device: mlx5_0
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+WARNING: There was an error initializing an OpenFabrics device.
+
+  Local host:   c3cpu-a5-u34-3
+  Local device: mlx5_0
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+WARNING: There was an error initializing an OpenFabrics device.
+
+  Local host:   c3cpu-a5-u34-3
+  Local device: mlx5_0
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+WARNING: There was an error initializing an OpenFabrics device.
+
+  Local host:   c3cpu-a5-u34-3
+  Local device: mlx5_0
+--------------------------------------------------------------------------
+==
+||
+|| Execution of fd in slurm batch script complete.
+||
+==

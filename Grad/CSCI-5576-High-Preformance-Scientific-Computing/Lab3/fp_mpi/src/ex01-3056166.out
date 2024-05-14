@@ -1,0 +1,45 @@
+Lmod has detected the following error: These module(s) or extension(s) exist
+but cannot be loaded as requested: "impi"
+   Try: "module spider impi" to see how to load the module(s).
+
+
+
+==
+||
+|| Begin Execution of fp in slurm batch script.
+||
+==
+[c3cpu-a5-u34-3:1352023:0:1352023] Caught signal 11 (Segmentation fault: address not mapped to object at address 0x100)
+BFD: Dwarf Error: Can't find .debug_ranges section.
+BFD: Dwarf Error: Can't find .debug_ranges section.
+BFD: Dwarf Error: Can't find .debug_ranges section.
+BFD: Dwarf Error: Can't find .debug_ranges section.
+BFD: Dwarf Error: Can't find .debug_ranges section.
+BFD: Dwarf Error: Can't find .debug_ranges section.
+BFD: Dwarf Error: Can't find .debug_ranges section.
+BFD: Dwarf Error: Can't find .debug_ranges section.
+==== backtrace (tid:1352023) ====
+ 0 0x0000000000012ce0 __funlockfile()  :0
+ 1 0x0000000000203ec6 mca_pml_ucx_isend()  ???:0
+ 2 0x00000000001055f1 NBC_Start_round()  nbc.c:0
+ 3 0x0000000000105ab7 NBC_Start()  ???:0
+ 4 0x000000000010936a ompi_coll_libnbc_iallgather()  ???:0
+ 5 0x0000000000095585 PMPI_Iallgather()  ???:0
+ 6 0x00000000004046be mpiInfo::ParticleExchange()  ???:0
+ 7 0x00000000004051eb Mesh::ParticlesOnMesh()  ???:0
+ 8 0x0000000000402c78 main()  ???:0
+ 9 0x000000000003acf3 __libc_start_main()  ???:0
+10 0x00000000004023be _start()  ???:0
+=================================
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that process rank 2 with PID 1352023 on node c3cpu-a5-u34-3 exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+==
+||
+|| Execution of fp in slurm batch script complete.
+||
+==

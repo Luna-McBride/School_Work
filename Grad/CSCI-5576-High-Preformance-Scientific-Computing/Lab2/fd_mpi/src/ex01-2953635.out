@@ -1,0 +1,13 @@
+==
+||
+|| Begin Execution of fd in slurm batch script.
+||
+==
+/home/trmc7708/Lab2/fd_mpi/src/./fd: /usr/lib64/libstdc++.so.6: version `GLIBCXX_3.4.29' not found (required by /home/trmc7708/Lab2/fd_mpi/src/./fd)
+/home/trmc7708/Lab2/fd_mpi/src/./fd: /usr/lib64/libstdc++.so.6: version `GLIBCXX_3.4.26' not found (required by /home/trmc7708/Lab2/fd_mpi/src/./fd)
+srun: error: c3cpu-a5-u34-3: task 0: Exited with exit code 1
+==
+||
+|| Execution of fd in slurm batch script complete.
+||
+==

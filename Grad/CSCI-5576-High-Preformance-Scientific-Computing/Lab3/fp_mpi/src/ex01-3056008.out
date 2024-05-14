@@ -1,0 +1,44 @@
+Lmod has detected the following error: These module(s) or extension(s) exist
+but cannot be loaded as requested: "impi"
+   Try: "module spider impi" to see how to load the module(s).
+
+
+
+==
+||
+|| Begin Execution of fp in slurm batch script.
+||
+==
+malloc(): invalid next size (unsorted)
+[c3cpu-a5-u34-3:1337791] *** Process received signal ***
+[c3cpu-a5-u34-3:1337791] Signal: Aborted (6)
+[c3cpu-a5-u34-3:1337791] Signal code:  (-6)
+[c3cpu-a5-u34-3:1337791] [ 0] /usr/lib64/libpthread.so.0(+0x12ce0)[0x1513ddbdece0]
+[c3cpu-a5-u34-3:1337791] [ 1] /usr/lib64/libc.so.6(gsignal+0x10f)[0x1513dd855a9f]
+[c3cpu-a5-u34-3:1337791] [ 2] /usr/lib64/libc.so.6(abort+0x127)[0x1513dd828e05]
+[c3cpu-a5-u34-3:1337791] [ 3] /usr/lib64/libc.so.6(+0x91037)[0x1513dd898037]
+[c3cpu-a5-u34-3:1337791] [ 4] /usr/lib64/libc.so.6(+0x9819c)[0x1513dd89f19c]
+[c3cpu-a5-u34-3:1337791] [ 5] /usr/lib64/libc.so.6(+0x9b07c)[0x1513dd8a207c]
+[c3cpu-a5-u34-3:1337791] [ 6] /usr/lib64/libc.so.6(__libc_calloc+0x86)[0x1513dd8a4486]
+[c3cpu-a5-u34-3:1337791] [ 7] /curc/sw/install/openmpi/4.1.1/gcc/11.2.0_slurmpmi/lib/libmpi.so.40(+0x1043b0)[0x1513de8a43b0]
+[c3cpu-a5-u34-3:1337791] [ 8] /curc/sw/install/openmpi/4.1.1/gcc/11.2.0_slurmpmi/lib/libmpi.so.40(+0x108de9)[0x1513de8a8de9]
+[c3cpu-a5-u34-3:1337791] [ 9] /curc/sw/install/openmpi/4.1.1/gcc/11.2.0_slurmpmi/lib/libmpi.so.40(ompi_coll_libnbc_iallgather+0x1a)[0x1513de8a935a]
+[c3cpu-a5-u34-3:1337791] [10] /curc/sw/install/openmpi/4.1.1/gcc/11.2.0_slurmpmi/lib/libmpi.so.40(PMPI_Iallgather+0x105)[0x1513de835585]
+[c3cpu-a5-u34-3:1337791] [11] /home/trmc7708/Lab3/HPSC_Lab3/Lab3/fp_mpi/src/fp[0x40466b]
+[c3cpu-a5-u34-3:1337791] [12] /home/trmc7708/Lab3/HPSC_Lab3/Lab3/fp_mpi/src/fp[0x4051e9]
+[c3cpu-a5-u34-3:1337791] [13] /home/trmc7708/Lab3/HPSC_Lab3/Lab3/fp_mpi/src/fp[0x402c78]
+[c3cpu-a5-u34-3:1337791] [14] /usr/lib64/libc.so.6(__libc_start_main+0xf3)[0x1513dd841cf3]
+[c3cpu-a5-u34-3:1337791] [15] /home/trmc7708/Lab3/HPSC_Lab3/Lab3/fp_mpi/src/fp[0x4023be]
+[c3cpu-a5-u34-3:1337791] *** End of error message ***
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that process rank 3 with PID 1337791 on node c3cpu-a5-u34-3 exited on signal 6 (Aborted).
+--------------------------------------------------------------------------
+==
+||
+|| Execution of fp in slurm batch script complete.
+||
+==

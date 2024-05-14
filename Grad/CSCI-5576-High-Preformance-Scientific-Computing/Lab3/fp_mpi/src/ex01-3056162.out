@@ -1,0 +1,87 @@
+Lmod has detected the following error: These module(s) or extension(s) exist
+but cannot be loaded as requested: "impi"
+   Try: "module spider impi" to see how to load the module(s).
+
+
+
+==
+||
+|| Begin Execution of fp in slurm batch script.
+||
+==
+free(): invalid next size (fast)
+[c3cpu-a5-u34-3:1351127] *** Process received signal ***
+[c3cpu-a5-u34-3:1351127] Signal: Aborted (6)
+[c3cpu-a5-u34-3:1351127] Signal code:  (-6)
+[c3cpu-a5-u34-3:1351127] [ 0] /usr/lib64/libpthread.so.0(+0x12ce0)[0x15303eb32ce0]
+[c3cpu-a5-u34-3:1351127] [ 1] /usr/lib64/libc.so.6(gsignal+0x10f)[0x15303e7a9a9f]
+[c3cpu-a5-u34-3:1351127] [ 2] /usr/lib64/libc.so.6(abort+0x127)[0x15303e77ce05]
+[c3cpu-a5-u34-3:1351127] [ 3] /usr/lib64/libc.so.6(+0x91037)[0x15303e7ec037]
+[c3cpu-a5-u34-3:1351127] [ 4] /usr/lib64/libc.so.6(+0x9819c)[0x15303e7f319c]
+[c3cpu-a5-u34-3:1351127] [ 5] /usr/lib64/libc.so.6(+0x99b38)[0x15303e7f4b38]
+[c3cpu-a5-u34-3:1351127] [ 6] /home/trmc7708/Lab3/HPSC_Lab3/Lab3/fp_mpi/src/fp[0x404acf]
+[c3cpu-a5-u34-3:1351127] [ 7] /home/trmc7708/Lab3/HPSC_Lab3/Lab3/fp_mpi/src/fp[0x4051eb]
+[c3cpu-a5-u34-3:1351127] [ 8] /home/trmc7708/Lab3/HPSC_Lab3/Lab3/fp_mpi/src/fp[0x402c78]
+[c3cpu-a5-u34-3:1351127] [ 9] /usr/lib64/libc.so.6(__libc_start_main+0xf3)[0x15303e795cf3]
+[c3cpu-a5-u34-3:1351127] [10] /home/trmc7708/Lab3/HPSC_Lab3/Lab3/fp_mpi/src/fp[0x4023be]
+[c3cpu-a5-u34-3:1351127] *** End of error message ***
+free(): invalid next size (fast)
+[c3cpu-a5-u34-3:1351124] *** Process received signal ***
+[c3cpu-a5-u34-3:1351124] Signal: Aborted (6)
+[c3cpu-a5-u34-3:1351124] Signal code:  (-6)
+[c3cpu-a5-u34-3:1351124] [ 0] /usr/lib64/libpthread.so.0(+0x12ce0)[0x14731d7c1ce0]
+[c3cpu-a5-u34-3:1351124] [ 1] /usr/lib64/libc.so.6(gsignal+0x10f)[0x14731d438a9f]
+[c3cpu-a5-u34-3:1351124] [ 2] /usr/lib64/libc.so.6(abort+0x127)[0x14731d40be05]
+[c3cpu-a5-u34-3:1351124] [ 3] /usr/lib64/libc.so.6(+0x91037)[0x14731d47b037]
+[c3cpu-a5-u34-3:1351124] [ 4] /usr/lib64/libc.so.6(+0x9819c)[0x14731d48219c]
+[c3cpu-a5-u34-3:1351124] [ 5] /usr/lib64/libc.so.6(+0x99b38)[0x14731d483b38]
+[c3cpu-a5-u34-3:1351124] [ 6] /home/trmc7708/Lab3/HPSC_Lab3/Lab3/fp_mpi/src/fp[0x404b08]
+[c3cpu-a5-u34-3:1351124] [ 7] /home/trmc7708/Lab3/HPSC_Lab3/Lab3/fp_mpi/src/fp[0x4051eb]
+[c3cpu-a5-u34-3:1351124] [ 8] /home/trmc7708/Lab3/HPSC_Lab3/Lab3/fp_mpi/src/fp[0x402c78]
+[c3cpu-a5-u34-3:1351124] [ 9] /usr/lib64/libc.so.6(__libc_start_main+0xf3)[0x14731d424cf3]
+[c3cpu-a5-u34-3:1351124] [10] /home/trmc7708/Lab3/HPSC_Lab3/Lab3/fp_mpi/src/fp[0x4023be]
+[c3cpu-a5-u34-3:1351124] *** End of error message ***
+free(): invalid next size (fast)
+[c3cpu-a5-u34-3:1351125] *** Process received signal ***
+[c3cpu-a5-u34-3:1351125] Signal: Aborted (6)
+[c3cpu-a5-u34-3:1351125] Signal code:  (-6)
+[c3cpu-a5-u34-3:1351125] [ 0] /usr/lib64/libpthread.so.0(+0x12ce0)[0x150719137ce0]
+[c3cpu-a5-u34-3:1351125] [ 1] /usr/lib64/libc.so.6(gsignal+0x10f)[0x150718daea9f]
+[c3cpu-a5-u34-3:1351125] [ 2] /usr/lib64/libc.so.6(abort+0x127)[0x150718d81e05]
+[c3cpu-a5-u34-3:1351125] [ 3] /usr/lib64/libc.so.6(+0x91037)[0x150718df1037]
+[c3cpu-a5-u34-3:1351125] [ 4] /usr/lib64/libc.so.6(+0x9819c)[0x150718df819c]
+[c3cpu-a5-u34-3:1351125] [ 5] /usr/lib64/libc.so.6(+0x99b38)[0x150718df9b38]
+[c3cpu-a5-u34-3:1351125] [ 6] /home/trmc7708/Lab3/HPSC_Lab3/Lab3/fp_mpi/src/fp[0x404acf]
+[c3cpu-a5-u34-3:1351125] [ 7] /home/trmc7708/Lab3/HPSC_Lab3/Lab3/fp_mpi/src/fp[0x4051eb]
+[c3cpu-a5-u34-3:1351125] [ 8] /home/trmc7708/Lab3/HPSC_Lab3/Lab3/fp_mpi/src/fp[0x402c78]
+[c3cpu-a5-u34-3:1351125] [ 9] /usr/lib64/libc.so.6(__libc_start_main+0xf3)[0x150718d9acf3]
+[c3cpu-a5-u34-3:1351125] [10] /home/trmc7708/Lab3/HPSC_Lab3/Lab3/fp_mpi/src/fp[0x4023be]
+[c3cpu-a5-u34-3:1351125] *** End of error message ***
+free(): invalid next size (fast)
+[c3cpu-a5-u34-3:1351126] *** Process received signal ***
+[c3cpu-a5-u34-3:1351126] Signal: Aborted (6)
+[c3cpu-a5-u34-3:1351126] Signal code:  (-6)
+[c3cpu-a5-u34-3:1351126] [ 0] /usr/lib64/libpthread.so.0(+0x12ce0)[0x14ebdfb6ace0]
+[c3cpu-a5-u34-3:1351126] [ 1] /usr/lib64/libc.so.6(gsignal+0x10f)[0x14ebdf7e1a9f]
+[c3cpu-a5-u34-3:1351126] [ 2] /usr/lib64/libc.so.6(abort+0x127)[0x14ebdf7b4e05]
+[c3cpu-a5-u34-3:1351126] [ 3] /usr/lib64/libc.so.6(+0x91037)[0x14ebdf824037]
+[c3cpu-a5-u34-3:1351126] [ 4] /usr/lib64/libc.so.6(+0x9819c)[0x14ebdf82b19c]
+[c3cpu-a5-u34-3:1351126] [ 5] /usr/lib64/libc.so.6(+0x99b38)[0x14ebdf82cb38]
+[c3cpu-a5-u34-3:1351126] [ 6] /home/trmc7708/Lab3/HPSC_Lab3/Lab3/fp_mpi/src/fp[0x404acf]
+[c3cpu-a5-u34-3:1351126] [ 7] /home/trmc7708/Lab3/HPSC_Lab3/Lab3/fp_mpi/src/fp[0x4051eb]
+[c3cpu-a5-u34-3:1351126] [ 8] /home/trmc7708/Lab3/HPSC_Lab3/Lab3/fp_mpi/src/fp[0x402c78]
+[c3cpu-a5-u34-3:1351126] [ 9] /usr/lib64/libc.so.6(__libc_start_main+0xf3)[0x14ebdf7cdcf3]
+[c3cpu-a5-u34-3:1351126] [10] /home/trmc7708/Lab3/HPSC_Lab3/Lab3/fp_mpi/src/fp[0x4023be]
+[c3cpu-a5-u34-3:1351126] *** End of error message ***
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that process rank 2 with PID 1351126 on node c3cpu-a5-u34-3 exited on signal 6 (Aborted).
+--------------------------------------------------------------------------
+==
+||
+|| Execution of fp in slurm batch script complete.
+||
+==

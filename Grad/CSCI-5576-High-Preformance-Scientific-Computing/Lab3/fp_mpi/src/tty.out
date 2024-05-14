@@ -1,0 +1,3133 @@
+
+myPE: 3 Time = 0
+Before Reduce
+
+myPE: 1 Time = 0
+Before Reduce
+
+myPE: 2 Time = 0
+Before Reduce
+
+---------------------------------------------
+
+ F R E E   P A R T I C L E                   
+ D E M O   C O D E                           
+
+ Running on 4 processors 
+
+---------------------------------------------
+
+
+Input Summary: 
+--------------------------- 
+No. PE   in  x-direction: 2
+             y-direction: 2
+No. Cells in x-direction: 5
+             y-direction: 5
+Flux density            : 10
+End Time                : 3
+Time Step               : 0.01
+
+
+myPE: 0 Time = 0
+Before Reduce
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+
+myPE: 3 Time = 0.01
+Before Reduce
+
+myPE: 2 Time = 0.01
+Before Reduce
+
+myPE: 0 Time = 0.01
+Before Reduce
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+
+myPE: 1 Time = 0.01
+Before Reduce
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+
+myPE: 0 Time = 0.02
+Before Reduce
+
+myPE: 3 Time = 0.02
+Before Reduce
+
+myPE: 2 Time = 0.02
+Before Reduce
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+
+myPE: 1 Time = 0.02
+Before Reduce
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+
+myPE: 3 Time = 0.03
+Before Reduce
+
+myPE: 2 Time = 0.03
+Before Reduce
+
+myPE: 0 Time = 0.03
+Before Reduce
+
+myPE: 1 Time = 0.03
+Before Reduce
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+
+myPE: 0 Time = 0.04
+Before Reduce
+
+myPE: 2 Time = 0.04
+Before Reduce
+
+myPE: 3 Time = 0.04
+Before Reduce
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+
+myPE: 1 Time = 0.04
+Before Reduce
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+
+myPE: 3 Time = 0.05
+Before Reduce
+
+myPE: 0 Time = 0.05
+Before Reduce
+
+myPE: 2 Time = 0.05
+Before Reduce
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+
+myPE: 1 Time = 0.05
+Before Reduce
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+
+myPE: 3 Time = 0.06
+Before Reduce
+
+myPE: 2 Time = 0.06
+Before Reduce
+
+myPE: 1 Time = 0.06
+Before Reduce
+
+myPE: 0 Time = 0.06
+Before Reduce
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+
+myPE: 3 Time = 0.07
+Before Reduce
+
+myPE: 2 Time = 0.07
+Before Reduce
+
+myPE: 1 Time = 0.07
+Before Reduce
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+
+myPE: 0 Time = 0.07
+Before Reduce
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+
+myPE: 3 Time = 0.08
+Before Reduce
+
+myPE: 1 Time = 0.08
+Before Reduce
+
+myPE: 0 Time = 0.08
+Before Reduce
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+
+myPE: 2 Time = 0.08
+Before Reduce
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+
+myPE: 3 Time = 0.09
+Before Reduce
+
+myPE: 0 Time = 0.09
+Before Reduce
+
+myPE: 1 Time = 0.09
+Before Reduce
+
+myPE: 2 Time = 0.09
+Before Reduce
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+
+myPE: 1 Time = 0.1
+Before Reduce
+
+myPE: 0 Time = 0.1
+Before Reduce
+
+myPE: 3 Time = 0.1
+Before Reduce
+
+myPE: 2 Time = 0.1
+Before Reduce
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+
+myPE: 3 Time = 0.11
+Before Reduce
+
+myPE: 0 Time = 0.11
+Before Reduce
+
+myPE: 1 Time = 0.11
+Before Reduce
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+
+myPE: 2 Time = 0.11
+Before Reduce
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+
+myPE: 3 Time = 0.12
+Before Reduce
+
+myPE: 0 Time = 0.12
+Before Reduce
+
+myPE: 2 Time = 0.12
+Before Reduce
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+
+myPE: 1 Time = 0.12
+Before Reduce
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+
+myPE: 3 Time = 0.13
+Before Reduce
+
+myPE: 1 Time = 0.13
+Before Reduce
+
+myPE: 0 Time = 0.13
+Before Reduce
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+
+myPE: 2 Time = 0.13
+Before Reduce
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+
+myPE: 3 Time = 0.14
+Before Reduce
+
+myPE: 1 Time = 0.14
+Before Reduce
+
+myPE: 0 Time = 0.14
+Before Reduce
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+
+myPE: 2 Time = 0.14
+Before Reduce
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+
+myPE: 3 Time = 0.15
+Before Reduce
+
+myPE: 1 Time = 0.15
+Before Reduce
+
+myPE: 0 Time = 0.15
+Before Reduce
+
+myPE: 2 Time = 0.15
+Before Reduce
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+
+myPE: 3 Time = 0.16
+
+myPE: 0 Time = 0.16
+Before Reduce
+Before Reduce
+
+myPE: 2 Time = 0.16
+Before Reduce
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+
+myPE: 1 Time = 0.16
+Before Reduce
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+
+myPE: 2 Time = 0.17
+Before Reduce
+
+myPE: 1 Time = 0.17
+Before Reduce
+
+myPE: 3 Time = 0.17
+Before Reduce
+
+myPE: 0 Time = 0.17
+Before Reduce
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+
+myPE: 2 Time = 0.18
+Before Reduce
+
+myPE: 3 Time = 0.18
+Before Reduce
+
+myPE: 1 Time = 0.18
+Before Reduce
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+
+myPE: 0 Time = 0.18
+Before Reduce
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+
+myPE: 3 Time = 0.19
+Before Reduce
+
+myPE: 2 Time = 0.19
+Before Reduce
+
+myPE: 1 Time = 0.19
+Before Reduce
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+
+myPE: 0 Time = 0.19
+Before Reduce
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+
+myPE: 3 Time = 0.2
+Before Reduce
+
+myPE: 2 Time = 0.2
+Before Reduce
+
+myPE: 1 Time = 0.2
+Before Reduce
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+
+myPE: 0 Time = 0.2
+Before Reduce
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+
+myPE: 3 Time = 0.21
+Before Reduce
+
+myPE: 2 Time = 0.21
+Before Reduce
+
+myPE: 1 Time = 0.21
+Before Reduce
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+
+myPE: 0 Time = 0.21
+Before Reduce
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+
+myPE: 3 Time = 0.22
+Before Reduce
+
+myPE: 1 Time = 0.22
+Before Reduce
+
+myPE: 2 Time = 0.22
+Before Reduce
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+
+myPE: 0 Time = 0.22
+Before Reduce
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+
+myPE: 3 Time = 0.23
+Before Reduce
+
+myPE: 1 Time = 0.23
+Before Reduce
+
+myPE: 2 Time = 0.23
+Before Reduce
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+
+myPE: 0 Time = 0.23
+Before Reduce
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+
+myPE: 3 Time = 0.24
+Before Reduce
+
+myPE: 1 Time = 0.24
+Before Reduce
+
+myPE: 2 Time = 0.24
+Before Reduce
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+
+myPE: 0 Time = 0.24
+Before Reduce
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+
+myPE: 3 Time = 0.25
+Before Reduce
+
+myPE: 2 Time = 0.25
+Before Reduce
+
+myPE: 1 Time = 0.25
+Before Reduce
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+
+myPE: 0 Time = 0.25
+Before Reduce
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+
+myPE: 3 Time = 0.26
+Before Reduce
+
+myPE: 1 Time = 0.26
+Before Reduce
+
+myPE: 2 Time = 0.26
+Before Reduce
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+
+myPE: 0 Time = 0.26
+Before Reduce
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+
+myPE: 3 Time = 0.27
+Before Reduce
+
+myPE: 1 Time = 0.27
+Before Reduce
+
+myPE: 2 Time = 0.27
+Before Reduce
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+
+myPE: 0 Time = 0.27
+Before Reduce
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+
+myPE: 1 Time = 0.28
+Before Reduce
+
+myPE: 3 Time = 0.28
+Before Reduce
+
+myPE: 2 Time = 0.28
+Before Reduce
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+
+myPE: 0 Time = 0.28
+Before Reduce
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+
+myPE: 3 Time = 0.29
+Before Reduce
+
+myPE: 1 Time = 0.29
+Before Reduce
+
+myPE: 2 Time = 0.29
+Before Reduce
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+
+myPE: 0 Time = 0.29
+Before Reduce
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+
+myPE: 1 Time = 0.3
+Before Reduce
+
+myPE: 2 Time = 0.3
+Before Reduce
+
+myPE: 3 Time = 0.3
+Before Reduce
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+
+myPE: 0 Time = 0.3
+Before Reduce
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+
+myPE: 3 Time = 0.31
+Before Reduce
+
+myPE: 1 Time = 0.31
+Before Reduce
+
+myPE: 2 Time = 0.31
+Before Reduce
+
+myPE: 0 Time = 0.31
+Before Reduce
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+
+myPE: 1 Time = 0.32
+Before Reduce
+
+myPE: 3 Time = 0.32
+Before Reduce
+
+myPE: 2 Time = 0.32
+Before Reduce
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+
+myPE: 0 Time = 0.32
+Before Reduce
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+
+myPE: 2 Time = 0.33
+Before Reduce
+
+myPE: 3 Time = 0.33
+Before Reduce
+
+myPE: 1 Time = 0.33
+Before Reduce
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+
+myPE: 0 Time = 0.33
+Before Reduce
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+
+myPE: 1 Time = 0.34
+Before Reduce
+
+myPE: 3 Time = 0.34
+Before Reduce
+
+myPE: 2 Time = 0.34
+Before Reduce
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+
+myPE: 0 Time = 0.34
+Before Reduce
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+
+myPE: 3 Time = 0.35
+Before Reduce
+
+myPE: 1 Time = 0.35
+Before Reduce
+
+myPE: 2 Time = 0.35
+Before Reduce
+
+myPE: 0 Time = 0.35
+Before Reduce
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+
+myPE: 1 Time = 0.36
+Before Reduce
+
+myPE: 3 Time = 0.36
+Before Reduce
+
+myPE: 0 Time = 0.36
+Before Reduce
+
+myPE: 2 Time = 0.36
+Before Reduce
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+
+myPE: 1 Time = 0.37
+Before Reduce
+
+myPE: 0 Time = 0.37
+Before Reduce
+
+myPE: 3 Time = 0.37
+Before Reduce
+
+myPE: 2 Time = 0.37
+Before Reduce
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+
+myPE: 1 Time = 0.38
+Before Reduce
+
+myPE: 2 Time = 0.38
+Before Reduce
+
+myPE: 0 Time = 0.38
+Before Reduce
+
+myPE: 3 Time = 0.38
+Before Reduce
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+
+myPE: 1 Time = 0.39
+Before Reduce
+
+myPE: 2 Time = 0.39
+Before Reduce
+
+myPE: 3 Time = 0.39
+Before Reduce
+
+myPE: 0 Time = 0.39
+Before Reduce
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+
+myPE: 3 Time = 0.4
+Before Reduce
+
+myPE: 2 Time = 0.4
+Before Reduce
+
+myPE: 1 Time = 0.4
+Before Reduce
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+
+myPE: 0 Time = 0.4
+Before Reduce
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+
+myPE: 1 Time = 0.41
+Before Reduce
+
+myPE: 3 Time = 0.41
+Before Reduce
+
+myPE: 0 Time = 0.41
+Before Reduce
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+
+myPE: 2 Time = 0.41
+Before Reduce
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+
+myPE: 1 Time = 0.42
+Before Reduce
+
+myPE: 3 Time = 0.42
+Before Reduce
+
+myPE: 0 Time = 0.42
+Before Reduce
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+
+myPE: 2 Time = 0.42
+Before Reduce
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+
+myPE: 1 Time = 0.43
+Before Reduce
+
+myPE: 3 Time = 0.43
+Before Reduce
+
+myPE: 2 Time = 0.43
+Before Reduce
+
+myPE: 0 Time = 0.43
+Before Reduce
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+
+myPE: 3 Time = 0.44
+Before Reduce
+
+myPE: 0 Time = 0.44
+Before Reduce
+
+myPE: 1 Time = 0.44
+Before Reduce
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+
+myPE: 2 Time = 0.44
+Before Reduce
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+
+myPE: 1 Time = 0.45
+Before Reduce
+
+myPE: 2 Time = 0.45
+Before Reduce
+
+myPE: 3 Time = 0.45
+Before Reduce
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+
+myPE: 0 Time = 0.45
+Before Reduce
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+
+myPE: 3 Time = 0.46
+Before Reduce
+
+myPE: 1 Time = 0.46
+Before Reduce
+
+myPE: 2 Time = 0.46
+Before Reduce
+
+myPE: 0 Time = 0.46
+Before Reduce
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+
+myPE: 3 Time = 0.47
+Before Reduce
+
+myPE: 1 Time = 0.47
+Before Reduce
+
+myPE: 2 Time = 0.47
+Before Reduce
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+
+myPE: 0 Time = 0.47
+Before Reduce
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+
+myPE: 1 Time = 0.48
+Before Reduce
+
+myPE: 3 Time = 0.48
+Before Reduce
+
+myPE: 2 Time = 0.48
+Before Reduce
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+
+myPE: 0 Time = 0.48
+Before Reduce
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+
+myPE: 3 Time = 0.49
+Before Reduce
+
+myPE: 1 Time = 0.49
+Before Reduce
+
+myPE: 0 Time = 0.49
+Before Reduce
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+
+myPE: 2 Time = 0.49
+Before Reduce
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+
+myPE: 3 Time = 0.5
+Before Reduce
+
+myPE: 1 Time = 0.5
+Before Reduce
+
+myPE: 2 Time = 0.5
+Before Reduce
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+
+myPE: 0 Time = 0.5
+Before Reduce
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+
+myPE: 3 Time = 0.51
+Before Reduce
+
+myPE: 2 Time = 0.51
+Before Reduce
+
+myPE: 0 Time = 0.51
+Before Reduce
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+
+myPE: 1 Time = 0.51
+Before Reduce
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+
+myPE: 2 Time = 0.52
+Before Reduce
+
+myPE: 3 Time = 0.52
+Before Reduce
+
+myPE: 0 Time = 0.52
+Before Reduce
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+
+myPE: 1 Time = 0.52
+Before Reduce
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+
+myPE: 3 Time = 0.53
+Before Reduce
+
+myPE: 2 Time = 0.53
+Before Reduce
+
+myPE: 0 Time = 0.53
+Before Reduce
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+
+myPE: 1 Time = 0.53
+Before Reduce
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+
+myPE: 3 Time = 0.54
+Before Reduce
+
+myPE: 1 Time = 0.54
+Before Reduce
+
+myPE: 0 Time = 0.54
+Before Reduce
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+
+myPE: 2 Time = 0.54
+Before Reduce
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Gather
+Before Adds
+After adds, Before Assignment
+Before Particle Add
+After Particle Add
+After Exchange
+
+myPE: 3 Time = 0.55
+Before Reduce
+
+myPE: 1 Time = 0.55
+Before Reduce
+
+myPE: 0 Time = 0.55
+Before Reduce
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+
+myPE: 2 Time = 0.55
+Before Reduce
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather
+After Reduce, Before C Particles
+After C Particles
+Before Gather Particles
+After Gather Particles
+Before Gather

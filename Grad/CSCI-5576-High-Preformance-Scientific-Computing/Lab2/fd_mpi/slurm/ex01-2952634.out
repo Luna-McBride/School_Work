@@ -1,0 +1,12 @@
+==
+||
+|| Begin Execution of fd in slurm batch script.
+||
+==
+slurmstepd: error: execve(): /home/trmc7708/Lab2/fd_mpi/slurm/./fd: No such file or directory
+srun: error: c3cpu-a5-u34-3: task 0: Exited with exit code 2
+==
+||
+|| Execution of fd in slurm batch script complete.
+||
+==
