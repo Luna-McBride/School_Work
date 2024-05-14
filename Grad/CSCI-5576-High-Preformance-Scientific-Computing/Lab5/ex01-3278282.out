@@ -1,0 +1,19 @@
+==
+||
+|| Begin Execution of Roofline Toolkit in slurm batch script.
+||
+==
+cat: 'Results.alpine/Run.002/*/*/*/sum': No such file or directory
+Traceback (most recent call last):
+  File "./ert", line 80, in <module>
+    if ert.roofline() != 0:
+  File "/home/trmc7708/Lab5/cs-roofline-toolkit/Empirical_Roofline_Tool-1.1.0/Python/ert_core.py", line 744, in roofline
+    database = self.build_database(gflop_lines,gbyte_lines)
+  File "/home/trmc7708/Lab5/cs-roofline-toolkit/Empirical_Roofline_Tool-1.1.0/Python/ert_core.py", line 613, in build_database
+    for metadata in gflop[h:]:
+UnboundLocalError: local variable 'h' referenced before assignment
+==
+||
+|| Execution of Roofline Toolkit in slurm batch script complete.
+||
+==

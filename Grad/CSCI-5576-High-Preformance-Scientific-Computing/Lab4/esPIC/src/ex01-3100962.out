@@ -1,0 +1,18 @@
+==
+||
+|| Begin Execution of esPIC in slurm batch script.
+||
+==
+/home/trmc7708/Lab4/HPSC_Lab4/esPIC/src/esPIC: /usr/lib64/libstdc++.so.6: version `GLIBCXX_3.4.29' not found (required by /home/trmc7708/Lab4/HPSC_Lab4/esPIC/src/esPIC)
+/home/trmc7708/Lab4/HPSC_Lab4/esPIC/src/esPIC: /usr/lib64/libstdc++.so.6: version `GLIBCXX_3.4.26' not found (required by /home/trmc7708/Lab4/HPSC_Lab4/esPIC/src/esPIC)
+/home/trmc7708/Lab4/HPSC_Lab4/esPIC/src/esPIC: /usr/lib64/libstdc++.so.6: version `GLIBCXX_3.4.29' not found (required by /home/trmc7708/Lab4/HPSC_Lab4/esPIC/src/esPIC)
+/home/trmc7708/Lab4/HPSC_Lab4/esPIC/src/esPIC: /usr/lib64/libstdc++.so.6: version `GLIBCXX_3.4.26' not found (required by /home/trmc7708/Lab4/HPSC_Lab4/esPIC/src/esPIC)
+/home/trmc7708/Lab4/HPSC_Lab4/esPIC/src/esPIC: /usr/lib64/libstdc++.so.6: version `GLIBCXX_3.4.29' not found (required by /home/trmc7708/Lab4/HPSC_Lab4/esPIC/src/esPIC)
+/home/trmc7708/Lab4/HPSC_Lab4/esPIC/src/esPIC: /usr/lib64/libstdc++.so.6: version `GLIBCXX_3.4.26' not found (required by /home/trmc7708/Lab4/HPSC_Lab4/esPIC/src/esPIC)
+/home/trmc7708/Lab4/HPSC_Lab4/esPIC/src/esPIC: /usr/lib64/libstdc++.so.6: version `GLIBCXX_3.4.29' not found (required by /home/trmc7708/Lab4/HPSC_Lab4/esPIC/src/esPIC)
+/home/trmc7708/Lab4/HPSC_Lab4/esPIC/src/esPIC: /usr/lib64/libstdc++.so.6: version `GLIBCXX_3.4.26' not found (required by /home/trmc7708/Lab4/HPSC_Lab4/esPIC/src/esPIC)
+==
+||
+|| Execution of esPIC in slurm batch script complete.
+||
+==

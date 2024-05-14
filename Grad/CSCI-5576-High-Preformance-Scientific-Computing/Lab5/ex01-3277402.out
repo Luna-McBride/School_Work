@@ -1,0 +1,23 @@
+==
+||
+|| Begin Execution of Roofline Toolkit in slurm batch script.
+||
+==
+Traceback (most recent call last):
+  File "./Scripts/summary.py", line 56, in <module>
+    x      = [float(line.split()[0].strip(',').strip('(')) for line in lines]
+  File "./Scripts/summary.py", line 56, in <listcomp>
+    x      = [float(line.split()[0].strip(',').strip('(')) for line in lines]
+IndexError: list index out of range
+  Failure...
+Unable to complete Results.alpine/Run.030/FLOPS.001/MPI.0001/OpenMP.0001, experiment 1
+  Failure...
+Unable to process Results.alpine/Run.030/FLOPS.001/MPI.0001/OpenMP.0001
+
+--- Processing ERT results failed ---
+
+==
+||
+|| Execution of Roofline Toolkit in slurm batch script complete.
+||
+==

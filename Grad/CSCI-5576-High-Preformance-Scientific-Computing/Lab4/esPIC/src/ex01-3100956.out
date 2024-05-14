@@ -1,0 +1,14 @@
+==
+||
+|| Begin Execution of esPIC in slurm batch script.
+||
+==
+[proxy:0:0@c3cpu-a5-u34-3.rc.int.colorado.edu] HYD_spawn (../../../../../src/pm/i_hydra/libhydra/spawn/intel/hydra_spawn.c:146): execvp error on file /home/trmc7708/Lab4/HPSC_Lab4/codes/esPIC/src/esPIC (No such file or directory)
+[proxy:0:0@c3cpu-a5-u34-3.rc.int.colorado.edu] HYD_spawn (../../../../../src/pm/i_hydra/libhydra/spawn/intel/hydra_spawn.c:146): execvp error on file /home/trmc7708/Lab4/HPSC_Lab4/codes/esPIC/src/esPIC (No such file or directory)
+[proxy:0:0@c3cpu-a5-u34-3.rc.int.colorado.edu] HYD_spawn (../../../../../src/pm/i_hydra/libhydra/spawn/intel/hydra_spawn.c:146): execvp error on file /home/trmc7708/Lab4/HPSC_Lab4/codes/esPIC/src/esPIC (No such file or directory)
+[proxy:0:0@c3cpu-a5-u34-3.rc.int.colorado.edu] HYD_spawn (../../../../../src/pm/i_hydra/libhydra/spawn/intel/hydra_spawn.c:146): execvp error on file /home/trmc7708/Lab4/HPSC_Lab4/codes/esPIC/src/esPIC (No such file or directory)
+==
+||
+|| Execution of esPIC in slurm batch script complete.
+||
+==

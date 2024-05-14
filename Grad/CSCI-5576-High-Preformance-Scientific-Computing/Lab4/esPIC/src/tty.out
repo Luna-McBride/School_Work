@@ -1,0 +1,22 @@
+
+------------------------------------------------------
+
+ E L E C T R O S T I C   P A R T I C L E - I N - C E L L
+ D E M O   C O D E                           
+
+ Running on 4 processors 
+
+------------------------------------------------------
+
+
+Input Summary: 
+--------------------------- 
+No. PE   in  x-direction: 2
+             y-direction: 2
+No. Cells in x-direction: 10
+             y-direction: 10
+Flux density            : 200
+End Time                : 2
+Time Step               : 0.01
+Plot Interval           : 0.2
+
