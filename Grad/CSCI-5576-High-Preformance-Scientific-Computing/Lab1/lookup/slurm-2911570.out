@@ -1,0 +1,17 @@
+
+Lmod is automatically replacing "intel/2022.1.2" with "gcc/11.2.0".
+
+
+Inactive Modules:
+  1) impi
+
+==
+||
+|| Begin Execution of fd in slurm batch script.
+||
+==
+==
+||
+|| Execution of ./main in slurm batch script complete.
+||
+==
