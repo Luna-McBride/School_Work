@@ -1,1 +1,1 @@
-<embed src='https://github.com/Luna-McBride/School_Work/blob/master/Grad/CSCI-5576-High-Preformance-Scientific-Computing/Lab4/HPSC_Lab4.pdf' width='100%' height='100%'  type="application/pdf" />
+<embed src='https://raw.githubusercontent.com/Luna-McBride/School_Work/blob/master/Grad/CSCI-5576-High-Preformance-Scientific-Computing/Lab4/HPSC_Lab4.pdf' width='100%' height='100%'  type="application/pdf" />
