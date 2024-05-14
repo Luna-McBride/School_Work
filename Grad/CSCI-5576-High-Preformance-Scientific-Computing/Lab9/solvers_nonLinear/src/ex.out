@@ -1,0 +1,89 @@
+[timingInfo] [main] Start time (Wall): 715621 Start time (CPU) : 248758
+
+------------------------------------------------------
+
+ S O L V E R S                                        
+ D E M O   C O D E                                    
+
+ Running on 1 processors 
+
+------------------------------------------------------
+
+
+Input Summary: 
+--------------------------- 
+No. PE   in  x-direction: 1
+             y-direction: 1
+No. Cells in x-direction: 20
+             y-direction: 20
+Linear solver           : cg
+Non-Linear solver       : sa
+
+LINEAR SOLVE for initial guess
+[timingInfo] [Linear Solver cg] Start time (Wall): 715621 Start time (CPU) : 249918
+  (o) CG converged in 74 iterations.
+[timingInfo] [Linear Solver cg] Finish time (Wall): 715621 Finish time (CPU) : 261725
+[timingInfo] [Linear Solver cg] Elapsed time (Wall, seconds): 0.0175608 Elapsed time (CPU, seconds) : 0.011807
+NON-LINEAR SOLVE
+[timingInfo] [sa with cg] Start time (Wall): 715621 Start time (CPU) : 261769
+  (o) CG converged in 51 iterations.
+  (o) CG converged in 2 iterations.
+  (o) CG converged in 1 iterations.
+  (o) CG converged in 1 iterations.
+  (o) CG converged in 43 iterations.
+  (o) CG converged in 2 iterations.
+  (o) CG converged in 1 iterations.
+  (o) CG converged in 1 iterations.
+  (o) CG converged in 41 iterations.
+  (o) CG converged in 2 iterations.
+  (o) CG converged in 1 iterations.
+  (o) CG converged in 1 iterations.
+  (o) CG converged in 39 iterations.
+  (o) CG converged in 2 iterations.
+  (o) CG converged in 1 iterations.
+  (o) CG converged in 1 iterations.
+  (o) CG converged in 36 iterations.
+  (o) CG converged in 2 iterations.
+  (o) CG converged in 1 iterations.
+  (o) CG converged in 1 iterations.
+  (o) CG converged in 34 iterations.
+  (o) CG converged in 2 iterations.
+  (o) CG converged in 1 iterations.
+  (o) CG converged in 1 iterations.
+  (o) CG converged in 32 iterations.
+  (o) CG converged in 1 iterations.
+  (o) CG converged in 1 iterations.
+  (o) CG converged in 1 iterations.
+  (o) CG converged in 29 iterations.
+  (o) CG converged in 1 iterations.
+  (o) CG converged in 1 iterations.
+  (o) CG converged in 1 iterations.
+  (o) CG converged in 25 iterations.
+  (o) CG converged in 1 iterations.
+  (o) CG converged in 1 iterations.
+  (o) CG converged in 1 iterations.
+  (o) CG converged in 23 iterations.
+  (o) CG converged in 1 iterations.
+  (o) CG converged in 1 iterations.
+  (o) CG converged in 1 iterations.
+  (o) CG converged in 20 iterations.
+  (o) CG converged in 1 iterations.
+  (o) CG converged in 1 iterations.
+  (o) CG converged in 1 iterations.
+  (o) CG converged in 16 iterations.
+  (o) CG converged in 1 iterations.
+  (o) CG converged in 1 iterations.
+  (o) CG converged in 1 iterations.
+  (o) CG converged in 13 iterations.
+  (o) CG converged in 1 iterations.
+  (o) CG converged in 1 iterations.
+  (o) CG converged in 1 iterations.
+  (o) CG converged in 5 iterations.
+  (o) CG converged in 1 iterations.
+  (o) CG converged in 1 iterations.
+  (o) CG converged in 1 iterations.
+sa converged in 56 iterations.
+[timingInfo] [sa with cg] Finish time (Wall): 715621 Finish time (CPU) : 311456
+[timingInfo] [sa with cg] Elapsed time (Wall, seconds): 0.0504911 Elapsed time (CPU, seconds) : 0.049687
+[timingInfo] [main] Finish time (Wall): 715621 Finish time (CPU) : 311491
+[timingInfo] [main] Elapsed time (Wall, seconds): 0.069315 Elapsed time (CPU, seconds) : 0.062733

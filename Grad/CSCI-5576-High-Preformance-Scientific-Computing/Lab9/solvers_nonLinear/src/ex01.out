@@ -1,0 +1,14 @@
+==
+||
+|| Begin Execution of fd in slurm batch script.
+||
+==
+OMP: Info #277: omp_set_nested routine deprecated, please use omp_set_max_active_levels instead.
+OMP: Info #277: omp_set_nested routine deprecated, please use omp_set_max_active_levels instead.
+OMP: Info #277: omp_set_nested routine deprecated, please use omp_set_max_active_levels instead.
+OMP: Info #277: omp_set_nested routine deprecated, please use omp_set_max_active_levels instead.
+==
+||
+|| Execution of solver in slurm batch script complete.
+||
+==

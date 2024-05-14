@@ -1,0 +1,11 @@
+echo "Run not started yet" > ex01.out
+sbatch ../slurm/ex01.bat
+squeue -u scru5660
+sleep 1
+clear ; squeue -u scru5660
+sleep 1
+clear ; squeue -u scru5660
+sleep 1
+clear ; squeue -u scru5660
+sleep 1
+tail -f ex01.out
