@@ -1,1 +1,1 @@
-https://docs.google.com/viewer?url=https://github.com/Luna-McBride/School_Work/blob/master/Grad/CSCI-5576-High-Preformance-Scientific-Computing/Lab4/HPSC_Lab4.pdf
+<object data="https://github.com/Luna-McBride/School_Work/blob/master/Grad/CSCI-5576-High-Preformance-Scientific-Computing/Lab4/HPSC_Lab4.pdf" width="1000" height="1000" type='application/pdf'></object>
