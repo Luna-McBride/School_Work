@@ -1,0 +1,20 @@
+==
+||
+|| Begin Execution of ovenWalls in slurm batch script.
+||
+==
+pgc++ -O3 -acc -gpu=ccnative -std=c++11 ovenWalls.cpp -o ovenWalls 
+
+
+Ray Tracing Demo Code
+
+
+[ pre-loops ] EXECUTION TIME  = 2107524 (ns)
+before main loop
+[ GPU ] EXECUTION TIME  = 15998395352 (ns)
+[ CPU ] EXECUTION TIME  = 11981046845 (ns)
+==
+||
+|| Execution of ovenWalls in slurm batch script complete.
+||
+==

@@ -1,0 +1,788 @@
+==
+||
+|| Begin Execution of fd in slurm batch script.
+||
+==
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+
+------------------------------------------------------
+
+ S O L V E R S                                        
+ D E M O   C O D E                                    
+
+ Running on 4 processors 
+
+------------------------------------------------------
+
+
+Input Summary: 
+--------------------------- 
+No. PE   in  x-direction: 4
+             y-direction: 1
+No. Cells in x-direction: 3
+             y-direction: 3
+Linear solver           : jacobi
+End Time                : 0.15
+Time Step               : 0.001
+Plot Interval           : 0.001
+This is a restart (1/0) : 0
+
+Plotting at time = 0 Plot ID = 0
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+Plotting at time = 0.001 Plot ID = 1
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+Plotting at time = 0.002 Plot ID = 2
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+Plotting at time = 0.003 Plot ID = 3
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+Plotting at time = 0.004 Plot ID = 4
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+Plotting at time = 0.005 Plot ID = 5
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+Plotting at time = 0.006 Plot ID = 6
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+Plotting at time = 0.007 Plot ID = 7
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+Plotting at time = 0.008 Plot ID = 8
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+Plotting at time = 0.009 Plot ID = 9
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+Plotting at time = 0.01 Plot ID = 10
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+Plotting at time = 0.011 Plot ID = 11
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+Plotting at time = 0.012 Plot ID = 12
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+Plotting at time = 0.013 Plot ID = 13
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+Plotting at time = 0.014 Plot ID = 14
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+Plotting at time = 0.015 Plot ID = 15
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+Plotting at time = 0.016 Plot ID = 16
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+Plotting at time = 0.017 Plot ID = 17
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+Plotting at time = 0.018 Plot ID = 18
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+Plotting at time = 0.019 Plot ID = 19
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+Plotting at time = 0.02 Plot ID = 20
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+Plotting at time = 0.021 Plot ID = 21
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+Plotting at time = 0.022 Plot ID = 22
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+Plotting at time = 0.023 Plot ID = 23
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+Plotting at time = 0.024 Plot ID = 24
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+Plotting at time = 0.025 Plot ID = 25
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+Plotting at time = 0.026 Plot ID = 26
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+Plotting at time = 0.027 Plot ID = 27
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+Plotting at time = 0.028 Plot ID = 28
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+Plotting at time = 0.029 Plot ID = 29
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+Plotting at time = 0.03 Plot ID = 30
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+Plotting at time = 0.031 Plot ID = 31
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+Plotting at time = 0.032 Plot ID = 32
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+Plotting at time = 0.033 Plot ID = 33
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+Plotting at time = 0.034 Plot ID = 34
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+Plotting at time = 0.035 Plot ID = 35
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+Plotting at time = 0.036 Plot ID = 36
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+Plotting at time = 0.037 Plot ID = 37
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+Plotting at time = 0.038 Plot ID = 38
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+Plotting at time = 0.039 Plot ID = 39
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+Plotting at time = 0.04 Plot ID = 40
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+Plotting at time = 0.041 Plot ID = 41
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+Plotting at time = 0.042 Plot ID = 42
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+Plotting at time = 0.043 Plot ID = 43
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+Plotting at time = 0.044 Plot ID = 44
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+Plotting at time = 0.045 Plot ID = 45
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+Plotting at time = 0.046 Plot ID = 46
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+Plotting at time = 0.047 Plot ID = 47
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+Plotting at time = 0.048 Plot ID = 48
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+Plotting at time = 0.049 Plot ID = 49
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+Plotting at time = 0.05 Plot ID = 50
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+Plotting at time = 0.051 Plot ID = 51
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+Plotting at time = 0.052 Plot ID = 52
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+Plotting at time = 0.053 Plot ID = 53
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+Plotting at time = 0.054 Plot ID = 54
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+Plotting at time = 0.055 Plot ID = 55
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+Plotting at time = 0.056 Plot ID = 56
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+Plotting at time = 0.057 Plot ID = 57
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+Plotting at time = 0.058 Plot ID = 58
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+Plotting at time = 0.059 Plot ID = 59
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+Plotting at time = 0.06 Plot ID = 60
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+Plotting at time = 0.061 Plot ID = 61
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+Plotting at time = 0.062 Plot ID = 62
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+Plotting at time = 0.063 Plot ID = 63
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+Plotting at time = 0.064 Plot ID = 64
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+Plotting at time = 0.065 Plot ID = 65
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+Plotting at time = 0.066 Plot ID = 66
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+Plotting at time = 0.067 Plot ID = 67
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+Plotting at time = 0.068 Plot ID = 68
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+Plotting at time = 0.069 Plot ID = 69
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+Plotting at time = 0.07 Plot ID = 70
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+Plotting at time = 0.071 Plot ID = 71
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+Plotting at time = 0.072 Plot ID = 72
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+Plotting at time = 0.073 Plot ID = 73
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+Plotting at time = 0.074 Plot ID = 74
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+Plotting at time = 0.075 Plot ID = 75
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+Plotting at time = 0.076 Plot ID = 76
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+Plotting at time = 0.077 Plot ID = 77
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+Plotting at time = 0.078 Plot ID = 78
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+Plotting at time = 0.079 Plot ID = 79
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+Plotting at time = 0.08 Plot ID = 80
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+Plotting at time = 0.081 Plot ID = 81
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+Plotting at time = 0.082 Plot ID = 82
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+Plotting at time = 0.083 Plot ID = 83
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+Plotting at time = 0.084 Plot ID = 84
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+Plotting at time = 0.085 Plot ID = 85
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+Plotting at time = 0.086 Plot ID = 86
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+Plotting at time = 0.087 Plot ID = 87
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+Plotting at time = 0.088 Plot ID = 88
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+Plotting at time = 0.089 Plot ID = 89
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+Plotting at time = 0.09 Plot ID = 90
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+Plotting at time = 0.091 Plot ID = 91
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+Plotting at time = 0.092 Plot ID = 92
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+Plotting at time = 0.093 Plot ID = 93
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+Plotting at time = 0.094 Plot ID = 94
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+Plotting at time = 0.095 Plot ID = 95
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+Plotting at time = 0.096 Plot ID = 96
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+Plotting at time = 0.097 Plot ID = 97
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+Plotting at time = 0.098 Plot ID = 98
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+Plotting at time = 0.099 Plot ID = 99
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+Plotting at time = 0.1 Plot ID = 100
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+Plotting at time = 0.101 Plot ID = 101
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+Plotting at time = 0.102 Plot ID = 102
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+Plotting at time = 0.103 Plot ID = 103
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+Plotting at time = 0.104 Plot ID = 104
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+Plotting at time = 0.105 Plot ID = 105
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+Plotting at time = 0.106 Plot ID = 106
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+Plotting at time = 0.107 Plot ID = 107
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+Plotting at time = 0.108 Plot ID = 108
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+Plotting at time = 0.109 Plot ID = 109
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+Plotting at time = 0.11 Plot ID = 110
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+Plotting at time = 0.111 Plot ID = 111
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+Plotting at time = 0.112 Plot ID = 112
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+Plotting at time = 0.113 Plot ID = 113
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+Plotting at time = 0.114 Plot ID = 114
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+Plotting at time = 0.115 Plot ID = 115
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+Plotting at time = 0.116 Plot ID = 116
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+Plotting at time = 0.117 Plot ID = 117
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+Plotting at time = 0.118 Plot ID = 118
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+Plotting at time = 0.119 Plot ID = 119
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+Plotting at time = 0.12 Plot ID = 120
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+Plotting at time = 0.121 Plot ID = 121
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+Plotting at time = 0.122 Plot ID = 122
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+Plotting at time = 0.123 Plot ID = 123
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+Plotting at time = 0.124 Plot ID = 124
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+Plotting at time = 0.125 Plot ID = 125
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+Plotting at time = 0.126 Plot ID = 126
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+Plotting at time = 0.127 Plot ID = 127
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+Plotting at time = 0.128 Plot ID = 128
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+Plotting at time = 0.129 Plot ID = 129
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+Plotting at time = 0.13 Plot ID = 130
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+Plotting at time = 0.131 Plot ID = 131
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+Plotting at time = 0.132 Plot ID = 132
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+Plotting at time = 0.133 Plot ID = 133
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+Plotting at time = 0.134 Plot ID = 134
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+Plotting at time = 0.135 Plot ID = 135
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+Plotting at time = 0.136 Plot ID = 136
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+Plotting at time = 0.137 Plot ID = 137
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+Plotting at time = 0.138 Plot ID = 138
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+Plotting at time = 0.139 Plot ID = 139
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+Plotting at time = 0.14 Plot ID = 140
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+Plotting at time = 0.141 Plot ID = 141
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+Plotting at time = 0.142 Plot ID = 142
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+Plotting at time = 0.143 Plot ID = 143
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+Plotting at time = 0.144 Plot ID = 144
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+Plotting at time = 0.145 Plot ID = 145
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+Plotting at time = 0.146 Plot ID = 146
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+Plotting at time = 0.147 Plot ID = 147
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+Plotting at time = 0.148 Plot ID = 148
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+Plotting at time = 0.149 Plot ID = 149
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+************* Writing dump file *****************
+Execution Completed Successfully
+==
+||
+|| Execution of solver in slurm batch script complete.
+||
+==

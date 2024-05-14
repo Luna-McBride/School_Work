@@ -1,0 +1,18 @@
+
+EXECUTABLE:
+
+   mpirun    : 'mpirun -n 4'
+   pathToExe : './transientDiffusion' 
+      
+ARGUMENTS:
+
+   initial  : ' -nPEx 2 -nPEy 2 -nCellx  40 -nCelly 40 -solver jacobi -tEnd .3   -dt .01 -tPlot .01           > tmp'
+   restart  : ' -nPEx 2 -nPEy 2 -nCellx  40 -nCelly 40 -solver jacobi -tEnd .3   -dt .01 -tPlot .01 -restart  > tmp'
+
+COMPLETION:
+
+   ttyOutput    : 'tmp'
+   completionStr: 'Execution Completed Successfully'
+   
+
+

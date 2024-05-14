@@ -1,0 +1,73 @@
+#
+# Remember, on Summit:
+#
+# module load intel
+# module load impi 
+
+rm -rf *.plt
+rm -rf phi_dump.bin
+
+rm pc_phi_*
+
+#--------------------------------------------------------------------------------------------------------
+# 4PE run
+#--------------------------------------------------------------------------------------------------------
+
+mpirun -n 4 ./transientDiffusion -nPEx 2 -nPEy 2 -nCellx  3 -nCelly 3 -solver jacobi -tEnd .15  -dt .001 -tPlot .001 | tee tmp
+
+mv phi_0_99.plt og_phi_0_14.plt
+mv phi_1_99.plt og_phi_1_14.plt
+mv phi_2_99.plt og_phi_2_14.plt
+mv phi_3_99.plt og_phi_3_14.plt
+
+# read -p "Run 4PE-1 done.  Press enter to continue"
+
+# rm phi_*.plt
+
+mpirun -n 4 ./transientDiffusion -nPEx 2 -nPEy 2 -nCellx  3 -nCelly 3 -solver jacobi -tEnd .3   -dt .001 -tPlot .001 -restart 1
+
+# read -p "Run 4PE-2 done.  Press enter to continue"
+
+# mv phi_0_149.plt new_phi_0_149.plt
+# mv phi_1_149.plt new_phi_1_149.plt
+# mv phi_2_149.plt new_phi_2_149.plt
+# mv phi_3_149.plt new_phi_3_149.plt
+
+
+# ./writePlotCmd_py3.py
+
+# python plot_surface.py -f "og_phi" -f2 "new_phi_"
+python plot_surface.py -f "og_phi" -f2 "load_phi_"
+
+# echo
+# echo
+# read -p "Moving onto 9PE run.  Press enter to do so."
+# echo
+# echo
+
+# rm -rf *.plt
+# rm -rf phi_dump.bin
+
+# rm pc_phi_*
+
+#--------------------------------------------------------------------------------------------------------
+# 9PE run
+#--------------------------------------------------------------------------------------------------------
+
+# mpirun --oversubscribe -n 9 ./transientDiffusion -nPEx 3 -nPEy 3 -nCellx  10 -nCelly 10 -solver jacobi -tEnd .05   -dt .001 -tPlot .001   | tee tmp
+
+# read -p "Run 9PE-1 done.  Press enter to continue"
+
+# mpirun --oversubscribe -n 9 ./transientDiffusion -nPEx 3 -nPEy 3 -nCellx  10 -nCelly 10 -solver jacobi -tEnd .10   -dt .001 -tPlot .001 -restart
+
+# read -p "Run 9PE-2 done.  Press enter to continue"
+
+# mpirun --oversubscribe -n 9 ./transientDiffusion -nPEx 3 -nPEy 3 -nCellx  10 -nCelly 10 -solver jacobi -tEnd .15   -dt .001 -tPlot .001 -restart
+
+# read -p "Run 9PE-3 done.  Press enter to continue"
+
+
+# ./writePlotCmd_py3.py
+
+
+
